@@ -1,10 +1,10 @@
 function calcAverageCalories(days) {
     let summ = 0;
     for (const day of days) {
-        summ += day.calories;
-    }
-    const middleValue = summ / days.length;
-    return middleValue
+    summ += day.calories;
+  }
+   const middleValue = summ / days.length;
+   return middleValue;
 } 
 
 
